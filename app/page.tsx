@@ -159,6 +159,10 @@ export default function HomePage() {
                   <div className="review__name">Hanna M.</div>
                   <div className="review__stars">
                     <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
                   </div>
                 </div>
                 <div className="review__body">
@@ -169,6 +173,10 @@ export default function HomePage() {
                 <div className="review__header">
                   <div className="review__name">David B.</div>
                   <div className="review__stars">
+                    <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
                     <BsStarFill />
                   </div>
                 </div>
@@ -181,6 +189,10 @@ export default function HomePage() {
                   <div className="review__name">Nathan S.</div>
                   <div className="review__stars">
                     <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
                   </div>
                 </div>
                 <div className="review__body">
@@ -191,6 +203,10 @@ export default function HomePage() {
                 <div className="review__header">
                   <div className="review__name">Ryan R.</div>
                   <div className="review__stars">
+                    <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
+                    <BsStarFill />
                     <BsStarFill />
                   </div>
                 </div>
@@ -220,6 +236,9 @@ export default function HomePage() {
               </div>
               <div className="numbers">
                 <div className="numbers__icon numbers__star--icon">
+                  <BsStarFill />
+                  <BsStarFill />
+                  <BsStarFill />
                   <BsStarFill />
                   <BsStarHalf />
                 </div>
