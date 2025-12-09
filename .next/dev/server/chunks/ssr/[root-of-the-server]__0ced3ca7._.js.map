@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/drake/Desktop/summarist-library-internship/components/Navbar.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function Navbar() {\r\n  return (\r\n    <div>\r\n      \r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;;;;AAIL"}},
-    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/drake/Desktop/summarist-library-internship/components/Sidebar.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function sidebar() {\r\n  return (\r\n    <div>\r\n      \r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;;;;AAIL"}},
-    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/drake/Desktop/summarist-library-internship/app/for-you/page.tsx"],"sourcesContent":["import Navbar from '../../components/Navbar'\r\nimport Sidebar from '../../components/Sidebar'\r\n\r\n\r\nexport default function ForYouPage() {\r\n  return (\r\n    <>\r\n      <Navbar />\r\n      <Sidebar />\r\n      <div>\r\n        <h1>For You</h1>\r\n      </div>\r\n    </>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAGe,SAAS;IACtB,qBACE;;0BACE,8OAAC,gIAAM;;;;;0BACP,8OAAC,iIAAO;;;;;0BACR,8OAAC;0BACC,cAAA,8OAAC;8BAAG;;;;;;;;;;;;;AAIZ"}}]
-}
