@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { auth, provider, signInWithPopup, signInWithEmailAndPassword, signInAnonymously } from '../firebase'
+import { auth, provider, signInWithPopup, signInWithEmailAndPassword, signInAnonymously, createUserWithEmailAndPassword } from '../firebase'
 import { useRouter } from 'next/navigation'
 
 interface LoginModalProps {
@@ -12,6 +12,7 @@ interface LoginModalProps {
 export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [isSignUp, setIsSignUp] = useState(false)
   const router = useRouter()
 
   const handleGoogleSignIn = async () => {
@@ -51,6 +52,19 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
     }
   }
 
+  const handleEmailSignUp = async (e: React.FormEvent) => {
+    e.preventDefault()
+    try {
+      const result = await createUserWithEmailAndPassword(auth, email, password)
+      console.log('Sign up successful:', result.user)
+      onClose()
+      router.push('/for-you')
+    } catch (error: any) {
+      console.error('Error signing up:', error)
+      alert('Failed to sign up: ' + error.message)
+    }
+  }
+
   if (!isOpen) return null
 
   return (
@@ -59,23 +73,23 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
     }}>
       <div className="modal__content">
         <span className="modal__close" onClick={onClose}>&times;</span>
-        <h2 className="modal__title">Log in to Summarist</h2>
+        <h2 className="modal__title">{isSignUp ? 'Sign up to Summarist' : 'Log in to Summarist'}</h2>
         
         <button className="btn btn--google" onClick={handleGoogleSignIn}>
           <i className="fab fa-google"></i>
-          Login with Google
+          {isSignUp ? 'Sign up with Google' : 'Login with Google'}
         </button>
         
         <button className="btn btn--guest" onClick={handleGuestSignIn}>
           <i className="fas fa-user"></i>
-          Login as Guest
+          {isSignUp ? 'Sign up as Guest' : 'Login as Guest'}
         </button>
         
         <div className="modal__separator">
           <span>or</span>
         </div>
         
-        <form className="login__form" onSubmit={handleEmailSignIn}>
+        <form className="login__form" onSubmit={isSignUp ? handleEmailSignUp : handleEmailSignIn}>
           <input 
             type="email" 
             className="login__input" 
@@ -92,11 +106,11 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
             onChange={(e) => setPassword(e.target.value)}
             required 
           />
-          <button type="submit" className="btn btn--login">Login</button>
+          <button type="submit" className="btn btn--login">{isSignUp ? 'Sign up' : 'Login'}</button>
         </form>
         
         <div className="modal__footer">
-          Don&apos;t have an account? <a href="#" className="modal__link">Sign up</a>
+          {isSignUp ? 'Already have an account?' : "Don't have an account?"} <a href="#" className="modal__link" onClick={(e) => { e.preventDefault(); setIsSignUp(!isSignUp) }}>{isSignUp ? 'Log in' : 'Sign up'}</a>
         </div>
       </div>
     </div>
