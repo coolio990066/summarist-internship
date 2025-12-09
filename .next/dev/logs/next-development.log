@@ -1,0 +1,296 @@
+[00:00:00.613] Server  LOG      ✓ Ready in 386ms
+[00:00:03.441] Server  ERROR    ⨯ ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+- Execution of <EcmascriptModuleFacadeChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+- Execution of <EcmascriptModuleLocalsChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:04.680] Browser ERROR   uncaughtError: Error: ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+- Execution of <EcmascriptModuleFacadeChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:04.848] Browser ERROR   ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+- Execution of <EcmascriptModuleFacadeChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:04.848] Browser ERROR   ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+- Execution of <EcmascriptModuleLocalsChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:04.989] Browser ERROR   ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+- Execution of <EcmascriptModuleFacadeChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:04.989] Browser ERROR   ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+- Execution of <EcmascriptModuleLocalsChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:50.287] Browser ERROR   ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+- Execution of <EcmascriptModuleFacadeChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:50.287] Browser ERROR   ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+- Execution of <EcmascriptModuleLocalsChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:58.987] Browser ERROR   ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript)
+- Execution of <EcmascriptModuleFacadeChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:58.987] Browser ERROR   ./firebase.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/firebase.js [app-client] (ecmascript) <locals>
+- Execution of <EcmascriptModuleLocalsChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js)
+
+Import traces:
+  Client Component Browser:
+    ./firebase.js [Client Component Browser]
+    ./components/LoginModal.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./firebase.js [Client Component SSR]
+    ./components/LoginModal.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:01:01.245] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:06.291] Browser LOG     Guest sign in successful: {"apiKey":"AIzaSyC1TdfnS27S7wRw02uABfJqbkpSTgUbR60","appName":"[DEFAULT]","createdAt":"1765262635384","emailVerified":false,"isAnonymous":true,"lastLoginAt":"1765262635384","providerData":[],"stsTokenManager":{"accessToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MTg5MTkxMTA3NjA1NDM0NGUxNWUyNTY0MjViYjQyNWVlYjNhNWMiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9zdW1tYXJpc3QtaW50ZXJuc2hpcC1lZjc2ZiIsImF1ZCI6InN1bW1hcmlzdC1pbnRlcm5zaGlwLWVmNzZmIiwiYXV0aF90aW1lIjoxNzY1MjYyNjM1LCJ1c2VyX2lkIjoiSmhTVGlaN1F5Zk5XbVczWlNISHZpcnJXQjV3MSIsInN1YiI6IkpoU1RpWjdReWZOV21XM1pTSEh2aXJyV0I1dzEiLCJpYXQiOjE3NjUyNjI2MzUsImV4cCI6MTc2NTI2NjIzNSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJhbm9ueW1vdXMifX0.EKbP20OrebwyhhOB6QNh38ZV-QBGaSplQ4117lZrmJvDmfEJgTkSG1yjISPKds0-OYkMyXZ70bouQeE1VwBzm0zEwojrX3N3eQ2wOEUZ66bjfRmpZOhAg4F1qXpXHOmlR6frjFyn1leRr-W3mIqM0y7OyeOl-NfxPYZF-Edua_E21qX2bOSUjaUVfsjvtgQqnpENaUAzd09Wn8isKek_RC9p4w5X6p-NcGITzH5ZYB86bDqgK4Cf7QBFWaj9TFMY9e91G9LXE9SVZHV3FLhA60uHAUeU4EbDcJa6L0nUbsatMIQR0nYspUQEMbLiBrKvEoqeofjqFsU0sgMZWYqLkA","expirationTime":1765266236093,"refreshToken":"AMf-vBxHqzPn-eihOVI2bqnM8yGykMEPo03wWyVOjoVMXIMfNUvDdNXAGPSeD8ET29g25_sCwbD84wfU8g05UAtTt3r3XCqsXRrcV9_AFgj1SOQ6WPZKaRJcoUhNkzcFRvotFK3kUwlSOCPKLlCxxofy_R8wNynsGoiu-8kKa1W29HYaviYbHUrAXisSoBt6TJLt1VtucMGg3K-xEa_IzGDxBRp58lGtaQ"},"uid":"JhSTiZ7QyfNWmW3ZSHHvirrWB5w1"}
