@@ -1,4 +1,5 @@
-// Define the shape of a book object
+
+
 export interface Book {
   id: string;
   author: string;
@@ -17,5 +18,3 @@ export interface Book {
   bookDescription: string;
   authorDescription: string;
 }
-
-

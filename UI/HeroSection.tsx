@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import LoginModal from './LoginModal'
+import LoginModal from '../components/LoginModal'
 
 export default function HeroSection() {
   const [showModal, setShowModal] = useState(false)

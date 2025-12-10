@@ -1,3 +1,4 @@
+import ReduxProvider from '../../components/ReduxProvider'
 import SearchBar from '../../components/SearchBar'
 import Sidebar from '../../components/Sidebar'
 
@@ -7,15 +8,16 @@ export default function ForYouLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="for-you-layout">
-      <div className=''>
-      <SearchBar />
+    <ReduxProvider>
+      <div className="for-you-layout">
+        <div className=''>
+          <SearchBar />
+        </div>
+        <div>
+          <Sidebar />
+        </div>
+        {children}
       </div>
-      <div>
-        <Sidebar />
-      </div>
-            
-      {children}
-    </div>
+    </ReduxProvider>
   )
 }
