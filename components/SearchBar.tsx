@@ -1,8 +1,9 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 export default function SearchBar() {
   return (
-    <div className="p-4 border-b-4 flex justify-end items-center">
+    <div className="p-4 border-b-4 flex justify-end items-center gap-4">
       <div className="relative flex items-center bg-gray-100 rounded-lg border-4 border-gray-200 shadow-sm w-full max-w-xs">
         <input 
           type="text" 
@@ -15,6 +16,7 @@ export default function SearchBar() {
           </button>
         </div>
       </div>
+      <Navigation />
     </div>
   )
 }

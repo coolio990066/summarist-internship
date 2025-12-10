@@ -1,11 +1,13 @@
-import SearchBar from '../../components/SearchBar'
+import BooksExample from "../../components/SelectedBook";
+
 
 
 
 export default function ForYouPage() {
   return (
     <>
-      <SearchBar />
+      <BooksExample />
+
     </>
   )
 }
