@@ -1,3 +1,6 @@
+import SearchBar from '../../components/SearchBar'
+import Sidebar from '../../components/Sidebar'
+
 export default function ForYouLayout({
   children,
 }: {
@@ -5,7 +8,13 @@ export default function ForYouLayout({
 }) {
   return (
     <div className="for-you-layout">
-      {/* Add navbar, sidebar, etc. here */}
+      <div className=''>
+      <SearchBar />
+      </div>
+      <div>
+        <Sidebar />
+      </div>
+            
       {children}
     </div>
   )

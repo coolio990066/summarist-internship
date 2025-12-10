@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { auth, provider, signInWithPopup, signInWithEmailAndPassword, signInAnonymously, createUserWithEmailAndPassword } from '../firebase'
+import { signOut, auth, provider, signInWithPopup, signInWithEmailAndPassword, signInAnonymously, createUserWithEmailAndPassword } from '../firebase'
 import { useRouter } from 'next/navigation'
 
 interface LoginModalProps {
@@ -18,11 +18,9 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const handleGoogleSignIn = async () => {
     try {
       const result = await signInWithPopup(auth, provider)
-      console.log('Google sign in successful:', result.user)
       onClose()
       router.push('/for-you')
     } catch (error: any) {
-      console.error('Error signing in with Google:', error)
       alert('Failed to sign in with Google: ' + error.message)
     }
   }
@@ -30,11 +28,9 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const handleGuestSignIn = async () => {
     try {
       const result = await signInAnonymously(auth)
-      console.log('Guest sign in successful:', result.user)
       onClose()
       router.push('/for-you')
     } catch (error: any) {
-      console.error('Error signing in as guest:', error)
       alert('Failed to sign in as guest: ' + error.message)
     }
   }
@@ -43,11 +39,9 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
     e.preventDefault()
     try {
       const result = await signInWithEmailAndPassword(auth, email, password)
-      console.log('Email sign in successful:', result.user)
       onClose()
       router.push('/for-you')
     } catch (error: any) {
-      console.error('Error signing in with email:', error)
       alert('Failed to sign in: ' + error.message)
     }
   }
@@ -56,11 +50,9 @@ export default function LoginModal({ isOpen, onClose }: LoginModalProps) {
     e.preventDefault()
     try {
       const result = await createUserWithEmailAndPassword(auth, email, password)
-      console.log('Sign up successful:', result.user)
       onClose()
       router.push('/for-you')
     } catch (error: any) {
-      console.error('Error signing up:', error)
       alert('Failed to sign up: ' + error.message)
     }
   }
