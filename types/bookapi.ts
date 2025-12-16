@@ -23,6 +23,14 @@ export const bookApi = createApi({
       // The query function defines the specific URL
       query: () => 'https://us-central1-summaristt.cloudfunctions.net/getBooks?status=recommended',
     }),
+    getSuggestedBooks: builder.query<Book[], void>({
+      // The query function defines the specific URL
+      query: () => 'https://us-central1-summaristt.cloudfunctions.net/getBooks?status=suggested',
+    }),
+    getBookById: builder.query<Book, string>({
+      // The query function defines the specific URL with the id parameter
+      query: (id) => `https://us-central1-summaristt.cloudfunctions.net/getBook?id=${id}`,
+    }),
   }),
 })
 
@@ -30,5 +38,7 @@ export const bookApi = createApi({
 // auto-generated based on the defined endpoints
 export const { 
     useGetSelectedBooksQuery, 
-    useGetRecommendedBooksQuery 
+    useGetRecommendedBooksQuery,
+    useGetSuggestedBooksQuery,
+    useGetBookByIdQuery
 } = bookApi;

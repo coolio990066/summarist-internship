@@ -7,7 +7,7 @@ export interface Book {
   subTitle: string;
   imageLink: string;
   audioLink: string;
-  totalRatings: number;
+  totalRating: number;
   averageRating: number;
   keyIdeas: number;
   type: string; // e.g., 'fiction' | 'non-fiction'
